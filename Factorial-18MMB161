@@ -1,0 +1,25 @@
+N = input('To find the factorial, enter a whole number'); 
+
+if (isreal(N) && rem(N,1)==0);
+
+    if N>0
+
+        f = factorial(N);
+
+    disp('Factorial of given number is');
+
+    disp(f);
+
+    elseif N==0
+
+        disp('Factorial of given number is 1');
+
+    elseif N<0
+
+        disp('Domain Error! Input must be a whole number');
+
+    end
+
+else disp('Domain Error! Input must be a whole number');
+
+end
